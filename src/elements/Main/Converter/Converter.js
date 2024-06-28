@@ -18,10 +18,8 @@ function Converter() {
       return;
     }
     const currency = event.currentTarget.elements.currencyName.value;
-    axios
-      .get(
-        `https://api.nbp.pl/api/exchangerates/rates/a/${currency}/?format=json`
-      )
+    //axios.get`https://api.nbp.pl/api/exchangerates/rates/a/${currency}/?format=json`()
+    axios.get`https://api.nbp.pl/api/exchangerates/rates/a/${currency}/?format=json`()
       .then((response) => {
         const isDataValid =
           response.data.rates?.length > 0 && response.data.rates[0].mid;
