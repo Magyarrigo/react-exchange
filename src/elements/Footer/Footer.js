@@ -1,11 +1,4 @@
 import "./Footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import {
-  faTwitter,
-  faFacebook,
-  faTiktok,
-} from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
