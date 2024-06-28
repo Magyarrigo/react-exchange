@@ -1,0 +1,30 @@
+.aboutMe {
+  padding-bottom: 33px;
+  display: flex;
+}
+.aboutMeSection {
+    align-items: center;
+  min-height: 300px;
+
+  border-radius: 10px;
+}
+.aboutMeMyPicture {
+  width: 30%;
+  background-image: url("../../../../public/secondPhoto.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.aboutMeMyCV {
+  width: 80%;
+}
+.aboutMeTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 700;
+  color: var(--color-primary);
+  padding-top: 1em;
+}
+.aboutMeContent {
+  padding: 1.5em 3em 1.5em 3em;
+  letter-spacing: 2px;
+}

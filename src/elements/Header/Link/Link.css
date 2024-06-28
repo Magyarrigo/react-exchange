@@ -1,0 +1,22 @@
+.navLink {
+  color:var(--color-white);
+  font-weight: 700;
+  font-size: 0.6875rem;
+  text-transform: uppercase;
+  padding: 28px 18px 22px;
+  
+  
+  border-bottom: 4px solid transparent;
+  letter-spacing: 0.1875rem;
+  
+}
+.navLink:hover {
+  color: var(--color-black);
+  border-color: var(--color-primary);
+}
+.navElement {
+  padding: 0 15px;
+}
+
+
+

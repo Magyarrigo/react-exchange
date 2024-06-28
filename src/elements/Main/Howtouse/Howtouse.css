@@ -1,0 +1,20 @@
+.sectionContainer {
+  background-color: var(--color-grey-medium);
+  min-height: 300px;
+
+  border-radius: 10px;
+}
+.descriptionTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 700;
+  color: var(--color-primary);
+  padding-top: 1em;
+}
+.descriptionContent {
+  padding: 0.75em 3em 0.75em 3em;
+  letter-spacing: 2px;
+}
+.descriptionContainer {
+  padding-bottom: 0.75em;
+}

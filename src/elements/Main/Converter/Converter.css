@@ -1,0 +1,63 @@
+.formContainer {
+  padding-top: 80px;
+}
+.dataEntryForm {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  height: 100px;
+}
+.dataField {
+  background-color: var(--color-grey-light);
+  border-radius: 15px;
+  border: solid 2px var(--color-primary);
+  height: 100%;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+.conversionResult {
+  background-color: var(--color-grey);
+  font-size: large;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.dataEntryField {
+  height: 70px;
+  width: 20%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resultField {
+  height: 70px;
+  width: 25%;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.labelClass {
+  height: 50px;
+  text-align: center;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.errorField {
+  display: flex;
+  margin-left: 29px;
+  width: 25%;
+  border-radius: 10px;
+  height: 80px;
+  font-size: 20px;
+  color: var(--color-white);
+  align-items: center;
+  background-color: var(--color-error);
+  padding-left: 30px;
+}
