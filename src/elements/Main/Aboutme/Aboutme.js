@@ -15,7 +15,7 @@ const textForHtwo = "MOJE KRÓTKIE CV";
 
 function Aboutme() {
   return (
-    <div className="aboutMe sectionContainer" id="aboutMe">
+    <section className="aboutMe sectionContainer" id="aboutMe">
       <div className="aboutMeMyPicture aboutMeSection"></div>
       <div className="aboutMeMyCV aboutMeSection">
         <Secondtitle
@@ -29,7 +29,7 @@ function Aboutme() {
         <Textarea classname="aboutMeContent" contents={fourthText} />
         <Textarea classname="aboutMeContent" contents={fifthText} />
       </div>
-    </div>
+    </section>
   );
 }
 

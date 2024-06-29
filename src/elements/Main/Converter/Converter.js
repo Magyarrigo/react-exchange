@@ -43,7 +43,7 @@ function Converter() {
   };
 
   return (
-    <div className="sectionContainer" id="converter">
+    <section className="sectionContainer" id="converter">
       <div className="formContainer">
         <form className="dataEntryForm" onSubmit={handleSubmit}>
           <div className="dataEntryField">
@@ -103,7 +103,7 @@ function Converter() {
         </form>
         {error ? <p className="errorField">{error}</p> : null}
       </div>
-    </div>
+    </section>
   );
 }
 

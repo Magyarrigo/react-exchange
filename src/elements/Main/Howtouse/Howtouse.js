@@ -15,7 +15,7 @@ function Howtouse({ classname, contents }) {
   const textForHtwo = "Jak korzystać z kalkulatora";
 
   return (
-    <div className="sectionContainer" id="description">
+    <section className="sectionContainer" id="description">
       <div className="descriptionContainer">
         <Secondtitle
           classname="descriptionTitle"
@@ -27,7 +27,7 @@ function Howtouse({ classname, contents }) {
         <Textarea classname="descriptionContent" contents={thirdText} />
         <Textarea classname="descriptionContent" contents={fourthText} />
       </div>
-    </div>
+    </section>
   );
 }
 
