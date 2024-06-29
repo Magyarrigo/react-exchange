@@ -22,7 +22,6 @@ code {
   --color-title: var(--color-primary);
   --color-button: var(--color-primary);
   --color-error: red;
-
   --button-radius: 35px;
   --containerWidth: 1352px;
   --font-open-sans: "Open Sans", sans-serif;

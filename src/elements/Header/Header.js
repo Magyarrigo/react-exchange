@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <div className="headerContainer">
         <img className="logo" src="logo-magyarrigo.svg" alt="logoOfCompany" />
-        <p className="projectTitle">CurrencyConverter</p>
+        <h1 className="projectTitle">CurrencyConverter</h1>
         <nav className="navContainer">
           <ul className="navContainerButtons">
             <Link id="#converter" text="CONVERTER" />
