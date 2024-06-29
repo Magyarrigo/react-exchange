@@ -12,7 +12,9 @@ function Converter() {
     const amount = event.currentTarget.elements.amount.value;
     const isValueInvalid = isNaN(amount) || amount <= 0;
     if (isValueInvalid) {
-      setError("wprowadź poprawną wartość: LICZBA DODATNIA");
+      setError(
+        "wprowadź poprawną wartość: LICZBA DODATNIA separator miejsc dziesiętnych to kropka"
+      );
       setResult(null);
       event.currentTarget.elements.amount.value = "";
       return;
