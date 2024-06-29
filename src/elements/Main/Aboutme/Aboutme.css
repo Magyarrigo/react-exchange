@@ -3,14 +3,14 @@
   display: flex;
 }
 .aboutMeSection {
-    align-items: center;
+  align-items: center;
   min-height: 300px;
 
   border-radius: 10px;
 }
 .aboutMeMyPicture {
   width: 30%;
-  background-image: url("../../../../public/secondPhoto.jpg");
+  background-image: url("../../../assets/images/secondPhoto.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
