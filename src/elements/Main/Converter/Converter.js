@@ -35,13 +35,14 @@ function Converter() {
           setResult(exchangeResult);
           console.log(result);
         } else {
-          setError("nieoczekiwany błąd sieci");
+          setError(
+            "niespodziewany błąd podczas pobierania danych - ponów próbę później"
+          );
         }
       })
 
       .catch(() => setError("nieoczekiwany błąd sieci"));
   };
-
   return (
     <section className="sectionContainer" id="converter">
       <div className="formContainer">
