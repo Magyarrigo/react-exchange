@@ -93,13 +93,13 @@ function Converter() {
             <label htmlFor="conversionResult" className="labelClass">
               wartość waluty
             </label>
-            <div
+            <output
               name="conversResult"
               className="conversionResult dataField"
               id="conversionResult"
             >
               TO: {result} PLN
-            </div>
+            </output>
           </div>
         </form>
         {error ? <p className="errorField">{error}</p> : null}

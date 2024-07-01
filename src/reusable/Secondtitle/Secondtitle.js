@@ -1,5 +1,3 @@
-import "./Secondtitle.css";
-
 function Secondtitle({ classname, id, contents }) {
   return (
     <h2 className={classname} id={id}>
